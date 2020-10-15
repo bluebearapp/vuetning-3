@@ -1,0 +1,36 @@
+<template>
+    <section role="alertdialog" tabindex="0" aria-labelledby="prompt-heading-id" aria-describedby="prompt-message-wrapper" class="slds-modal slds-fade-in-open slds-modal_prompt" aria-modal="true">
+        <div class="slds-modal__container">
+            <header class="slds-modal__header slds-theme_error slds-theme_alert-texture">
+                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+                    <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+                    </svg>
+                    <span class="slds-assistive-text">Close</span>
+                </button>
+                <h2 class="slds-text-heading_medium" id="prompt-heading-id">Service unavailable</h2>
+            </header>
+            <div class="slds-modal__content slds-p-around_medium" id="prompt-message-wrapper">
+                <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat
+                    veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit
+                    officia tempor esse quis. Cillum sunt ad dolore
+                    quis aute consequat ipsum magna exercitation reprehenderit magna. Tempor cupidatat consequat elit
+                    dolor adipisicing.</p>
+            </div>
+            <footer class="slds-modal__footer slds-theme_default">
+                <button class="slds-button slds-button_neutral">Got It</button>
+            </footer>
+        </div>
+    </section>
+    <div class="slds-backdrop slds-backdrop_open"></div>
+</template>
+
+<script>
+export default {
+    name: "SldsPrompt"
+}
+</script>
+
+<style scoped>
+
+</style>

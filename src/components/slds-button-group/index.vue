@@ -1,0 +1,17 @@
+<template>
+    <div class="slds-button-group" role="group">
+        <button class="slds-button slds-button_neutral">Refresh</button>
+        <button class="slds-button slds-button_neutral">Edit</button>
+        <button class="slds-button slds-button_neutral">Save</button>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "SldsButtonGroup"
+}
+</script>
+
+<style scoped>
+
+</style>

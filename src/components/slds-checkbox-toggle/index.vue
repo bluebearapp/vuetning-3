@@ -1,0 +1,23 @@
+<template>
+    <div class="slds-form-element">
+        <label class="slds-checkbox_toggle slds-grid">
+            <span class="slds-form-element__label slds-m-bottom_none">Toggle Label</span>
+            <input type="checkbox" name="checkbox-toggle-3" value="checkbox-toggle-3" aria-describedby="checkbox-toggle-3" />
+            <span id="checkbox-toggle-3" class="slds-checkbox_faux_container" aria-live="assertive">
+                <span class="slds-checkbox_faux"></span>
+                <span class="slds-checkbox_on">Enabled</span>
+                <span class="slds-checkbox_off">Disabled</span>
+            </span>
+        </label>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "SldsCheckboxToggle"
+}
+</script>
+
+<style scoped>
+
+</style>
